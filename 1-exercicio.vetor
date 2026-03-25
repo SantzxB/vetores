@@ -18,4 +18,5 @@ elif 5 < media < 6.9:
 else:
     print("REPROVADO") 
 
+print(f"Notas: {list}")
 print(f"Média: {media}")
