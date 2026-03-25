@@ -13,8 +13,7 @@ for i in range(quantidade_notas):
     nota = float(input(f"Digite a {i + 1}ª nota:"))
     list.append(nota)
 
-max = max(list)
-min = min(list)
+
 print(f"Notas: {list}")
-print(f"Número maior: {max}")
-print(f"Número menor: {min}")
+print(f"Número maior: {max(list)}")
+print(f"Número menor: {min(list)}")
