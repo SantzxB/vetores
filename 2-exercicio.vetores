@@ -1,0 +1,20 @@
+import os
+
+os.system("cls||clear")
+
+import os
+
+os.system("cls||clear")
+
+list = []
+quantidade_notas = 5
+
+for i in range(quantidade_notas):
+    nota = float(input(f"Digite a {i + 1}ª nota:"))
+    list.append(nota)
+
+max = max(list)
+min = min(list)
+print(f"Notas: {list}")
+print(f"Número maior: {max}")
+print(f"Número menor: {min}")
