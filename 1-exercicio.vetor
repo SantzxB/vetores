@@ -1,0 +1,21 @@
+import os
+
+os.system("cls||clear")
+
+list = []
+quantidade_notas = 4
+
+for i in range(quantidade_notas):
+    nota = float(input(f"Digite a {i + 1}ª nota:"))
+    list.append(nota)
+
+    media = sum(list) / quantidade_notas
+   
+if media >= 7:
+    print("APROVADO!")
+elif 5 < media < 6.9:
+    print("RECUPERAÇÃO!")
+else:
+    print("REPROVADO") 
+
+print(f"Média: {media}")
