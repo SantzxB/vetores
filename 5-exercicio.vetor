@@ -1,0 +1,26 @@
+import os
+
+os.system("cls||clear")
+
+numeros = []
+
+
+for i in range(5):
+    valor = int(input(f"Digite o {i+1}º número: "))
+    numeros.append(valor)
+
+
+qtd_negativos = 0
+soma_positivos = 0
+
+
+for num in numeros:
+    if num < 0:
+        qtd_negativos += 1
+    elif num > 0:
+        soma_positivos += num
+
+
+print("\n=== RESULTADO ===")
+print(f"Quantidade de números negativos: {qtd_negativos}")
+print(f"Soma dos números positivos: {soma_positivos}")
